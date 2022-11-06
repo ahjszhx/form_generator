@@ -1,0 +1,128 @@
+// app global css in SCSS form
+#q-app {
+  background-color: #FAFAFD;
+  font-size: 14px;
+  color: var(--black);
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+:root {
+  /* 参数 */
+  --headerHeight: 60px;
+  --bezier: cubic-bezier(.64, -0.05, .25, 1.12);
+  --radius: 8px;
+  /* 主题色 */
+  --primary: #0046b9;
+  --secondary: #008bcf;
+  --accent: #ffcc00;
+  /* 主色 */
+  --blue: #359EF4;
+  --black: #363741;
+  --green: #1df099;
+  --yellow: #ffcc00;
+  --red: #ea4448;
+  --brown: #E4AF0C;
+  --darkGray: #666;
+  --grey: #aaacc2;
+  --ghostWhite: #FAFAFD;
+  --white: #FFFFFF;
+  --link: #E7E8F2;
+  /* 浅色 */
+  --blueLight: #d2ebff;
+  --greyLight: #fafafd;
+  --yellowLight: #fff6d3;
+  --redLight: #ffd7dd;
+  /* 渐变色 */
+  --gradualBlue: linear-gradient(90deg, var(--secondary), var(--primary));
+  /* 阴影透明色 */
+  --ShadowSizeSm: 0px 8px 16px -5px;
+  --ShadowSizeMd: 0px 10px 20px -5px;
+  --blueShadow: rgba(0, 139, 207, 0.1);
+  --greyShadow: rgba(114, 130, 138, 0.2);
+  --blackShadow: rgba(26, 26, 26, 0.2);
+
+}
+
+/* 颜色 */
+.bg-blue.light {
+  background-color: var(--blueLight) !important;
+  color: var(--blue);
+}
+
+.bg-grey.light {
+  background-color: var(--greyLight) !important;
+  color: var(--grey);
+}
+
+.bg-yellow.light {
+  background-color: var(--yellowLight) !important;
+  color: var(--brown);
+}
+
+.bg-red.light {
+  background-color: var(--redLight) !important;
+  color: var(--red);
+}
+
+.bg-gradual-blue {
+  background-image: var(--gradualBlue) !important;
+  color: var(--white);
+}
+
+
+
+/* 边距 */
+.radius {
+  border-radius: 10px;
+}
+
+
+
+/* 字体 */
+@font-face {
+  font-style: normal;
+  font-family: "din";
+  src: url("../statics/fonts/din-regular.ttf") format("truetype");
+}
+
+.num {
+  font-family: "din";
+}
+
+/* 全局样式 */
+.card-style {
+  background: #FFFFFF;
+  border: 1px solid #E7E8F2;
+  box-shadow: var(--ShadowSizeSm) var(--blueShadow);
+  border-radius: 8px;
+}
+
+.not-allow-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  // background: rgba(255, 0, 0, 0.4);
+}

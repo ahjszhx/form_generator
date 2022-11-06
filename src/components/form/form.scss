@@ -1,0 +1,29 @@
+/* 其他 */
+// 星号*
+.asterisk {
+  color: #ff6d56;
+  margin-left: 5px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.placeholder-style {
+  color: #646464;
+}
+
+.q-field__bottom {
+  position: absolute;
+}
+
+.checkbox-wrap,
+.radio-wrap,
+.select-wrap,
+.switch-wrap {
+  padding-bottom: 20px;
+}
+
+.checkbox-wrap.withoutCheck,
+.radio-wrap.withoutCheck,
+.select-wrap.withoutCheck {
+  padding-bottom: 0px;
+}

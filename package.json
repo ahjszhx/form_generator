@@ -1,0 +1,43 @@
+{
+  "name": "form_generator_web",
+  "version": "0.0.1",
+  "description": "",
+  "productName": "form_generator_web",
+  "author": "zhanghaixiao <ahjszhx@126.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@quasar/quasar-ui-qcalendar": "^3.3.5",
+    "axios": "^0.18.1",
+    "clipboard": "^2.0.7",
+    "core-js": "^3.6.5",
+    "crypto-js": "^3.3.0",
+    "quasar": "^1.0.0",
+    "url-search-params-polyfill": "^8.1.0",
+    "vuedraggable": "^2.24.3",
+    "wangeditor": "^4.6.15"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
