@@ -46,7 +46,14 @@
           </q-card-section>
           <q-card-section>
             <div class="q-pt-none">
-              <span>GitHub : </span>
+              <q-badge
+                style="font-size:16px"
+                transparent
+                align="middle"
+                color="orange"
+              >
+                GitHub
+              </q-badge>
               <a href>https://github.com/ahjszhx/form_generator.git</a>
             </div>
             <div class="text-h6">Thanks for your review and may you have a nice day !</div>
